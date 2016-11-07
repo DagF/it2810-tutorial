@@ -10,6 +10,7 @@ import './App.scss';
 import rootReducer from './Reducers'
 
 import Application from './application/Application'
+import PageTwo from './pageTwo/PageTwo'
 
 const store = createStore(
     rootReducer,
@@ -29,6 +30,7 @@ const App = () => {
             <Router history={history}>
                 <Route path="/" component={Application}>
                     <Route path="profile" component={Profile}/>
+                    <Route path="pageTwo" component={PageTwo}/>
                 </Route>
             </Router>
         </Provider>
