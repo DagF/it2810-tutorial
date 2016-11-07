@@ -19,8 +19,5 @@ const Application = ({children}) => {
     </div>)
 }
 
-Application.propTypes = {
-    children: PropTypes.shape().isRequired
-}
 
 export default Application
