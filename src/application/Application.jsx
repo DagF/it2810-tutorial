@@ -12,7 +12,6 @@ import DevTools from '../dev-tools/DevTools'
 const Application = ({children}) => {
     return (<div className="root">
         <Header/>
-        <Nav/>
         <Content children={children}/>
         <DevTools/>
         <Footer/>

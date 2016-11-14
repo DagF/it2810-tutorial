@@ -2,9 +2,16 @@ import React from 'react'
 
 
 const Footer = () => {
-    return (<footer id="footer">
-        Footer
-    </footer>)
+    return (
+
+        <footer className="navbar navbar-default navbar-static-bottom">
+            <div className="container">
+                <div className="row footer">
+                    
+                </div>
+            </div>
+        </footer>
+    )
 }
 
 export default Footer
