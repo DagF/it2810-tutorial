@@ -1,6 +1,6 @@
 import React from 'react'
 import { createStore } from 'redux'
-import { Router, Route, browserHistory } from 'react-router'
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import { Provider } from 'react-redux'
 import { syncHistoryWithStore } from 'react-router-redux'
 import DevTools from './dev-tools/DevTools'
@@ -27,7 +27,7 @@ const App = () => {
         <Provider store={store}>
             <Router history={history}>
                 <Route path="/" component={Application}>
-                    <Route path="page1" component={PageOne}/>
+                    <IndexRoute component={PageOne}/>
                 </Route>
             </Router>
         </Provider>
