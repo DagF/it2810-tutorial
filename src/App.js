@@ -10,7 +10,7 @@ import rootReducer from './Reducers'
 
 import Application from './application/Application'
 import PageOne from './page-one/PageOne'
-
+import PageTwo from './pageTwo/PageTwo'
 
 const store = createStore(
     rootReducer,
@@ -27,6 +27,7 @@ const App = () => {
         <Provider store={store}>
             <Router history={history}>
                 <Route path="/" component={Application}>
+                    <Route path="pageTwo" component={PageTwo}/>
                     <IndexRoute component={PageOne}/>
                 </Route>
             </Router>

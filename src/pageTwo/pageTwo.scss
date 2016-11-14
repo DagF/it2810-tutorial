@@ -1,0 +1,27 @@
+
+
+%box-shadow {
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+  @extend %box-shadow;
+  display: inline-block;
+  max-width: 400px;
+  height: auto;
+  background-color: black;
+  padding: 10px;
+  border-radius: 3px;
+  img {
+    width: 100%;
+    height: auto;
+    font-family: Garamond, sans-serif;
+  }
+  figcaption {
+    padding: 15px 0;
+    font-size: 16px;
+    color: white;
+  }
+}
