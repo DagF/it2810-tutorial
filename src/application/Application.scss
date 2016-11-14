@@ -1,2 +1,12 @@
 
+body{
+  
+}
 
+footer {
+  .navbar{
+    &.navbar-default{
+      min-height: 200px;
+    }
+  }
+}
