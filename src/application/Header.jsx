@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from './Nav.jsx'
+import {Link} from 'react-router'
 
 const Header = () => {
     return (
@@ -7,7 +8,7 @@ const Header = () => {
             <div className="container">
 
                 <div className="navbar-header">
-                    <a href="index.html" className="navbar-brand">Blasting Off With Bootstrap</a>
+                    <Link to="/" className="navbar-brand">Home</Link>
                     <button type="button" className="navbar-toggle"
                             data-toggle="collapse" data-target=".navbar-collapse">
                         <span className="sr-only">Toggle Navigation</span>

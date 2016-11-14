@@ -6,9 +6,6 @@ const Nav = () => {
     return (<nav>
         <ul className="nav navbar-nav navbar-right collapse navbar-collapse text-center">
             <li>
-                <Link id="shopButton" to="/">Home</Link>
-            </li>
-            <li>
                 <Link id="shopButton" to="/pagetwo">Monkeys</Link>
             </li>
         </ul>
