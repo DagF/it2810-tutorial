@@ -4,7 +4,8 @@ import {Link} from 'react-router'
 
 const Nav = () => {
     return (<nav className="navbar">
-        <Link id="shopButton" to="/page1">Page1</Link>
+        <Link id="shopButton" to="/">Home</Link>
+        <Link id="shopButton" to="/pagetwo">Monkeys</Link>
     </nav>)
 }
 
