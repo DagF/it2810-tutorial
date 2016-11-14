@@ -4,5 +4,15 @@
 }
 
 body{
-  background: lightblue;
+
+}
+footer{
+  &.navbar-default {
+    margin-bottom: 0;
+    min-height: 200px;
+  }
+}
+
+#content {
+  min-height: 720px;
 }

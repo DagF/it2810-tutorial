@@ -9,6 +9,7 @@ import DevTools from './dev-tools/DevTools'
 import rootReducer from './Reducers'
 
 import Application from './application/Application'
+import Home from './home/Home'
 import PageOne from './page-one/PageOne'
 import PageTwo from './pageTwo/PageTwo'
 
@@ -27,8 +28,9 @@ const App = () => {
         <Provider store={store}>
             <Router history={history}>
                 <Route path="/" component={Application}>
-                    <Route path="pageTwo" component={PageTwo}/>
-                    <IndexRoute component={PageOne}/>
+                    <IndexRoute component={Home}/>
+                    <Route path="/pageOne" component={PageOne}/>
+                    <Route path="/pageTwo" component={PageTwo}/>
                 </Route>
             </Router>
         </Provider>

@@ -4,21 +4,66 @@
   box-shadow:0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-.image-container {
-  @extend %box-shadow;
+%no-box-shadow {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.imageBox-link{
+
+  font-family: Helvetica, sans-serif;
+
+  margin: 10px;
   display: inline-block;
-  max-width: 400px;
-  height: auto;
-  background-color: darkslategray;
-  padding: 10px;
-  img {
-    width: 100%;
-    height: auto;
-    font-family: Garamond, sans-serif;
+  color: #333;
+  &:hover{
+    color: #333;
   }
-  figcaption {
-    padding: 15px 0;
-    font-size: 16px;
-    color: white;
+
+  .image-container {
+    @extend %box-shadow;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    color: #333;
+    font-size: 24px;
+
+    img {
+      width: 100%;
+      height: auto;
+      font-family: Garamond, sans-serif;
+    }
+    figcaption {
+      padding: 15px 0;
+    }
+
+    &.death {
+      background-color: black;
+      color: white;
+    }
+
+    &.important {
+      background-color: #ff0008;
+      color: white;
+    }
+
+    &.no-background {
+      background-color: transparent;
+      color: inherit;
+      @extend %no-box-shadow;
+    }
+    &.small {
+      width: 200px;
+      height: auto;
+      font-size: 12px;
+    }
+    &.big {
+      width: 600px;
+      height: auto;
+      font-size: 36px;
+    }
   }
 }
