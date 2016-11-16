@@ -22,7 +22,7 @@ module.exports = {
             {
                 test: /\.scss$/,
                 include: dir,
-                loaders: ["style", "css", "sass", "postcss"]
+                loaders: ["style", "css", "sass"]
             }
         );
         return webpackConfig;

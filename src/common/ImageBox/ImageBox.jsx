@@ -1,6 +1,12 @@
-import React from 'react'
+import React, {PropTypes} from 'react'
 import './imageBox.scss'
 
+
+/**
+ * Component is described here.
+ *
+ * @example ./ImageBox.examples.md
+ */
 const ImageBox = ({url, text, alt, type}) => {
     return (
         <figure className={"image-container " + type}>
@@ -9,5 +15,10 @@ const ImageBox = ({url, text, alt, type}) => {
         </figure>
     )
 };
+
+ImageBox.propTypes = {
+    url: PropTypes.string.isRequired,
+    type: PropTypes.oneOf(['large', 'small']),
+}
 
 export default ImageBox;
