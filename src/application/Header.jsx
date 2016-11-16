@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from './Nav.jsx'
 import {Link} from 'react-router'
 
 const Header = () => {
@@ -17,9 +16,6 @@ const Header = () => {
                         <span className="icon-bar"></span>
                     </button>
                 </div>
-
-                <Nav>
-                </Nav>
             </div>
         </header>
     )

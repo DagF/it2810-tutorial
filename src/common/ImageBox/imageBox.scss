@@ -10,19 +10,11 @@
   box-shadow: none;
 }
 
-.imageBox-link{
 
-  font-family: Helvetica, sans-serif;
 
-  margin: 10px;
-  display: inline-block;
-  color: #333;
-  &:hover{
-    color: #333;
-  }
-
-  .image-container {
+.image-container {
     @extend %box-shadow;
+    margin: 15px;
     display: inline-block;
     width: 400px;
     height: auto;
@@ -65,5 +57,4 @@
       height: auto;
       font-size: 36px;
     }
-  }
 }
