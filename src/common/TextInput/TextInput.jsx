@@ -1,11 +1,6 @@
 import React, {PropTypes} from 'react'
 import './textInput.scss'
 
-/**
- * Component is described here.
- *
- * @example ./TextInput.examples.md
- */
 function getDefaultLayout(name, text, type, placeholder){
     return (
         <div className="form-group">
@@ -26,6 +21,11 @@ function getInlineLayout(name, text, type, placeholder){
     )
 }
 
+/**
+ * Component is described here.
+ *
+ * @example ./TextInput.examples.md
+ */
 const TextInput = ({name, text, type = "text", placeholder, layout = "default"}) => {
 
     function getHtml(){
