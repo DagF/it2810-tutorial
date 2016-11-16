@@ -24,6 +24,11 @@ module.exports = {
                 test: /\.scss$/,
                 include: dir,
                 loaders: ["style", "css", "sass"]
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|svg)$/,
+                include: dir,
+                loader: 'ignore-loader'
             }
         );
         return webpackConfig;

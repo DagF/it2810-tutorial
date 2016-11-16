@@ -2,6 +2,7 @@ import React, {PropTypes} from 'react'
 import './textInput.scss'
 
 
+
 function getDefaultLayout(name, text, type, placeholder){
     return (
         <div className="form-group">
