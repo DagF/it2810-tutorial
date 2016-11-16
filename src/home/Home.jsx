@@ -1,9 +1,13 @@
 import React from 'react'
 import ImageBox from '../common/ImageBox/ImageBox'
+import Form from '../common/Form/Form'
+import TextInput from '../common/TextInput/TextInput.jsx'
+import mockQuestions from '../data/questions'
 
 import './home.scss'
 
 const Home = () => {
+
     return (
         <div className="container">
 
@@ -28,6 +32,8 @@ const Home = () => {
                       text="My horse is amazing!"
                       boxColor="black"
                 />
+
+            <TextInput text="Navn:" name="input_name" placeholder="Navn.."/>
         </div>
     )
 };

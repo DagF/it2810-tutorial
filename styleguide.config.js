@@ -4,6 +4,9 @@ const dir = path.join(__dirname, 'src');
 module.exports = {
     title: 'My Great Style Guide',
     updateWebpackConfig(webpackConfig) {
+
+        webpackConfig.entry.push('./src/bootstrap.css');
+
         // Your source files folder or array of folders, should not include node_modules
         console.log(dir)
         webpackConfig.module.loaders.push(

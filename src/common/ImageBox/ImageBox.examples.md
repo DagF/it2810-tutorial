@@ -8,6 +8,3 @@ React component example:
           boxColor="red"
            />
 ```
-
-
-
