@@ -27,5 +27,5 @@ module.exports = {
         );
         return webpackConfig;
     },
-    components: dir + '/**/*.jsx'
+    components: dir + '/common/**/*.jsx'
 };
