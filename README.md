@@ -78,10 +78,29 @@ I vår ```Home``` komponent har vi følgende kode:
 Dette produserer:
 ![ImageBox components][image-box-components]
 
+I dette eksempelet er det lett å se hvilke komponenter som bør dras ut som en felles komponent.
+Det er helt klart behov for en bilde boks for å gjøre koden mer leslig og for å standarisere bildeboksene
+slik at de har et mer uniformt design.
 
+Vi ser på en enkelt bildeboks med koden:
+
+```jsx
+<figure className={"image-container large red"}>
+    <img src={"https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg"} alt={"Burrito cat"}/>
+    <figcaption>{"What does a cat burrito taste like?"}</figcaption>
+</figure>
+```
+
+
+Og resultatet av koden:
+![ImageBox components][image-box-components]
+
+
+I del 2 ser vi på hvordan isolere koden ut i en egen komponent
 
 
 [image-box-components]: ./img/image-box-components.png
+[image-box-component]: ./img/image-box-component.png
 
 
 [1]: http://johannesbrodwall.com/2014/03/24/the-economics-of-reuse/
