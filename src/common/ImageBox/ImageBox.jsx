@@ -1,9 +1,11 @@
 import React from 'react'
 import './imageBox.scss'
 
-const ImageBox = ({url, text, alt, type}) => {
+
+const ImageBox = ({url, text, alt, size = "medium", boxColor = "transparent"}) => {
+
     return (
-        <figure className={"image-container " + type}>
+        <figure className={"image-container " + size + " " + boxColor}>
             <img src={url} alt={alt}/>
             <figcaption>{text}</figcaption>
         </figure>
