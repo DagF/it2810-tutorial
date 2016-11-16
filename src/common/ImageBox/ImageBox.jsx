@@ -17,7 +17,10 @@ const ImageBox = ({url, text, alt, size = "medium", boxColor = "transparent"}) =
 
 ImageBox.propTypes = {
     url: PropTypes.string.isRequired,
-    type: PropTypes.oneOf(['large', 'small']),
-}
+    text: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
+    size: PropTypes.oneOf(['small', 'medium', 'large']),
+    boxColor: PropTypes.oneOf(['transparent', 'black', 'white', 'red'])
+};
 
 export default ImageBox;
