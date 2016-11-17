@@ -8,6 +8,7 @@ import './comment.scss'
  */
 const Comment = ({imageUrl, text, username, date}) => {
     return (
+        <div className="width">
             <div className="comment">
                 <div className="comment-image">
                     <img src={imageUrl} alt={username}/>
@@ -22,6 +23,7 @@ const Comment = ({imageUrl, text, username, date}) => {
                     </p>
                 </div>
             </div>
+        </div>
     )
 };
 
