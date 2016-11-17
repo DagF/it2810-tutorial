@@ -93,6 +93,7 @@ Vi ser på en enkelt bildeboks med koden:
 
 
 Og resultatet av koden:
+
 ![ImageBox component][image-box-component]
 
 
