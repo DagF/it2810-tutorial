@@ -1,23 +1,24 @@
 import React, {PropTypes} from 'react'
 import './textInput.scss'
 
-function getDefaultLayout(name, text, type, placeholder){
+function getDefaultLayout(name, text, type, placeholder, value){
     return (
-        <div className="form-group">
+        <div className="text-input">
             <label htmlFor={name}>{text}</label>
-            <input type={type} className="form-control" id={name} name={name} placeholder={placeholder || ""} />
+            <input type={type} className="form-control" id={name} name={name} placeholder={placeholder || ""} defaultValue={value}/>
         </div>
     )
 }
 
-function getInlineLayout(name, text, type, placeholder){
+function getInlineLayout(name, text, type, placeholder, value){
     return (
-    <div className="form-group">
-        <label className="control-label col-sm-2" htmlFor={name}>{text}</label>
+    <div className="form-group text-input clearfix">
+        <label className="control-label col-sm-2 inline-label" htmlFor={name}>{text}</label>
         <div className="col-sm-10">
-            <input type={type} className="form-control" id={name} name={name} placeholder={placeholder || ""}/>
+            <input type={type} className="form-control" id={name} name={name} placeholder={placeholder || ""} defaultValue={value}/>
         </div>
     </div>
+
     )
 }
 
@@ -26,13 +27,13 @@ function getInlineLayout(name, text, type, placeholder){
  *
  * @example ./TextInput.examples.md
  */
-const TextInput = ({name, text, type = "text", placeholder, layout = "default"}) => {
+const TextInput = ({name, text, type = "text", placeholder, layout = "default", value}) => {
 
     function getHtml(){
         if(layout === "inline"){
-            return getInlineLayout(name, text, type, placeholder);
+            return getInlineLayout(name, text, type, placeholder, value);
         }else{
-            return getDefaultLayout(name, text, type, placeholder);
+            return getDefaultLayout(name, text, type, placeholder, value);
         }
     }
 
@@ -49,6 +50,7 @@ TextInput.propTypes = {
                             'datetime-local', 'email', 'month', 'number', 'range', 'search',
                             'tel', 'time', 'url', 'week']),
     placeholder: PropTypes.string,
+    value: PropTypes.string,
     layout: PropTypes.string
 };
 

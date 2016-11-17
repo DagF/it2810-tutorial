@@ -1,1 +1,37 @@
 @import '../../bootstrap-3.3.7-dist/css/bootstrap.min.css';
+
+.text-input {
+  margin: 15px;
+  input{
+    width: 30%;
+  }
+
+  .inline-label{
+    text-align: right;
+    margin-top: 0.25em;
+  }
+}
+
+
+span.cm-attribute {
+  font-size: 14px;
+  color: #0a5000 !important;
+}
+
+span.cm-string {
+  font-size: 14px;
+  color: #06009e !important;
+}
+
+span.cm-tag {
+  font-size: 14px;
+  color: #920000 !important;
+}
+
+.ReactStyleguidist-Playground__preview{
+  background-color: #a3a5cc !important;
+}
+
+.ReactStyleguidist-StyleGuide__content {
+  max-width: 80% !important;
+}

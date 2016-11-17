@@ -6,7 +6,7 @@ import './imageBox.scss'
  *
  * @example ./ImageBox.examples.md
  */
-const ImageBox = ({url, text, alt, size = "medium", boxColor = "transparent"}) => {
+const ImageBox = ({url, text, alt, size = "medium", boxColor = "black"}) => {
     return (
         <figure className={"image-container " + size + " " + boxColor}>
             <img src={url} alt={alt}/>
