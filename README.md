@@ -115,9 +115,12 @@ plasseres inline.
 I del 3 ser vi på hvordan dokumentere komponenten vi har isolert.
 
 
-[image-box-component]: ./img/image-box-component.png
 
 Skal se om det er mulig å dra inn noen poenger fra denne:
 Er ikke helt sikker på hvorfor fremgangsmåten jeg har beskrevet skal være bedre, men er noe jeg ble fortalt i sommerjobben.
+
+
+
+[image-box-component]: ./img/image-box-component.png
 
 [1]: http://thesassway.com/intermediate/avoid-nested-selectors-for-more-modular-css
