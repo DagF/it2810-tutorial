@@ -1,0 +1,57 @@
+
+
+.comment {
+  background-color: #cccccc;
+  padding: 2%;
+  margin-bottom: 2%;
+  display: table;
+  width: 100%;
+  .comment-text {
+    display: inline-block;
+    width: 80%;
+    padding: 0 2%;
+    font-size: 16px;
+    vertical-align: top;
+  }
+  .comment-username {
+    font-size: 1.5em;
+    margin-bottom: 1%;
+    a {
+      &:hover {
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+    p{
+      display: inline-block;
+      font-size: 0.5em;
+      font-weight: bold;
+      float: right;
+      margin-top: 1%;
+    }
+  }
+  .comment-image {
+    display: inline-block;
+    vertical-align: baseline;
+    position: relative;
+    width:  20%;
+    height: 100%;
+    overflow: hidden;
+    img{
+      width: 100%;
+      height: auto;
+      border: 1px solid #676767;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .col-xs-3, .col-xs-9 {
+    padding: 0;
+  }
+}
+
+.width{
+  width: 500px;
+}
