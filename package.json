@@ -40,6 +40,7 @@
     "promise": "7.1.1",
     "react-dev-utils": "^0.3.0",
     "react-router-redux": "^4.0.7",
+    "react-styleguidist": "^4.2.3",
     "recursive-readdir": "2.1.0",
     "redux-devtools": "^3.3.1",
     "redux-devtools-dock-monitor": "^1.1.1",
@@ -67,7 +68,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "styleguide-server": "styleguidist server",
+    "styleguide-build": "styleguidist build"
   },
   "jest": {
     "moduleFileExtensions": [
