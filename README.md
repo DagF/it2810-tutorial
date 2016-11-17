@@ -13,6 +13,18 @@ Det å legge til en beskrivelse gjøres på samme måte en er vant med i for eks
 Vi har oppdatert koden under med en enkel beskrivelse.
 
 ```jsx
+/**
+ * ImageBox component displaying a image and a text grouped.
+ *
+ * To be used as full page image, in text image or in-text link image.
+ *
+ * @param url url of the image
+ * @param text text for the image
+ * @param alt alternative textual description for the image
+ * @param type ImageBox type
+ * @returns {XML}
+ * @constructor
+ */
 const ImageBox = ({url, text, alt, type="inline"}) => {
     return (
         <figure className={"image-box image-box-" + type }>
@@ -23,24 +35,85 @@ const ImageBox = ({url, text, alt, type="inline"}) => {
 };
 ```
 
-Vi ser nå at det er flere verdier i komponenten som vil være forskjellige for hver enkelt instanse.
-Vi bytter derfor ut verdiene inne i ```{}``` ut med beskrivende variabler og deklarerer som paramtere i komponenten.
-```jsx
-const ImageBox = ({url, text, alt, size, boxColor}) => {
-    return (
-        <figure className={"image-box " + size + " " + boxColor}>
-            <img src={url} alt={alt}/>
-            <figcaption>{text}</figcaption>
-        </figure>
-    )
+Dette genererer:
+![ImageBox styleguide][style-guide-w-description]
+
+
+### Hvordan legge til proptypes
+Videre legger vi til proptypes:
+
+```
+ImageBox.propTypes = {
+    /**
+     * url of the image
+     */
+    url: PropTypes.string.isRequired,
+    /**
+     * text for the image
+     */
+    text: PropTypes.string.isRequired,
+    /**
+     * alternative textual description for the image
+     */
+    alt: PropTypes.string.isRequired,
+    /**
+     * ImageBox type
+     */
+    type: PropTypes.oneOf(['inline', 'block', 'link'])
 };
 ```
 
-![ImageBox component][image-box-component]
+Dette gir:
+![ImageBox styleguide width proptypes][style-guide-w-proptypes]
+
+
+### Hvordan legge til eksempler
+
+Det som gjenstår nå er å legge til noen eksempler:
+
+For å gjør dette oppdaterer vi beskrivelsen av komponenten med en @example:
+
+```
+/**
+    * ImageBox component displaying a image and a text grouped.
+*
+* To be used as full page image, in text image or in-text link image.
+*
+* @param url url of the image
+* @param text text for the image
+* @param alt alternative textual description for the image
+* @param type ImageBox type
+* @returns {XML}
+* @constructor
+*
+* @example ./ImageBox.examples.md
+*/
+```
+
+Vi må også lage filen ```ImageBox.examples.md```:
+
+```
+ImageBox component
+
+'''
+<ImageBox
+    url={"https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg"}
+    text={"Burrito cat"}
+    alt={"What does a cat burrito taste like?"}
+/>
+'''
+```
+
+NB! ' er brukt i stedenfor ` i dette eksempelet for å få markdown på denne siden til å rendre.
+
+Dette gir:
+
+![ImageBox styleguide with exampels][style-guide-w-exampels]
 
 
 
-[image-box-component]: ./img/image-box-component.png
+[style-guide-w-description]: ./img/style-guide-w-description.png
+[style-guide-w-proptypes]: ./img/style-guide-w-proptypes.png
 
 
 [1]: http://thesassway.com/intermediate/avoid-nested-selectors-for-more-modular-css
