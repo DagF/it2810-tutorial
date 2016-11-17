@@ -93,7 +93,7 @@ Vi ser på en enkelt bildeboks med koden:
 
 
 Og resultatet av koden:
-![ImageBox components][image-box-components]
+![ImageBox component][image-box-component]
 
 
 I del 2 ser vi på hvordan isolere koden ut i en egen komponent
