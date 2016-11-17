@@ -78,6 +78,7 @@ const Home = () => {
 ```
 
 Dette gir:
+
 ![ImageBox component][image-box-component]
 
 
