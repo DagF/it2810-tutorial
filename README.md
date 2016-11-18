@@ -79,7 +79,7 @@ Dette produserer:
 ![ImageBox components][image-box-components]
 
 I dette eksempelet er det lett å se hvilke komponenter som bør dras ut som en felles komponent.
-Det er helt klart behov for en bilde boks for å gjøre koden mer leslig og for å standarisere bildeboksene
+Det er helt klart behov for en bildeboks for å gjøre koden mer leselig og for å standardisere bildeboksene
 slik at de har et mer uniformt design.
 
 Vi ser på en enkelt bildeboks med koden:
