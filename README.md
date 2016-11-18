@@ -17,7 +17,9 @@ filene ```ImageBox.jsx``` og ```ImageBox.scss```.
 
 ### Hvordan isolere komponenten
 Vi starter med å flytte kode fra en av de dupliserte komponentene vi har inn i den nyopprettede filen
-```/common/ImageBox/ImageBox.jsx```.
+```
+/common/ImageBox/ImageBox.js
+```
 
 Den ser da slik ut:
 ```jsx
