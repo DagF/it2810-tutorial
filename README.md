@@ -35,7 +35,7 @@ const ImageBox = ({url, text, alt, type="inline"}) => {
 };
 ```
 
-Dette genererer:
+Dette genererer:<br />
 ![ImageBox styleguide][style-guide-w-description]
 
 
@@ -63,7 +63,7 @@ ImageBox.propTypes = {
 };
 ```
 
-Dette gir:
+Dette gir:<br />
 ![ImageBox styleguide width proptypes][style-guide-w-proptypes]
 
 
