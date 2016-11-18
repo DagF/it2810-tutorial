@@ -12,7 +12,7 @@
 
 
 
-.image-container {
+.image-box {
   @extend %box-shadow;
   margin: 5px;
   display: inline-block;
@@ -47,12 +47,13 @@
     color: inherit;
     @extend %no-box-shadow;
   }
-  &.small {
+  &.image-box-inline, &.image-box-link {
     width: 200px;
     height: auto;
     font-size: 12px;
+    display: inline-block;
   }
-  &.medium {
+  &.image-box-block {
     width: 400px;
     height: auto;
     font-size: 24px;
