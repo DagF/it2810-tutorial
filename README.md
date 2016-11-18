@@ -112,8 +112,7 @@ alle bildebokser. ```image-box-inline``` utvider denne definisjonen med hvordan 
 plasseres inline.
 
 
-I del 3 ser vi på hvordan vi kan dokumentere komponenten vi har isolert.
-
+I [del 3][3] ser vi på hvordan vi kan dokumentere komponenten vi har isolert.
 
 
 Skal se om det er mulig å dra inn noen poenger fra denne:
@@ -128,7 +127,6 @@ Er ikke helt sikker på hvorfor fremgangsmåten jeg har beskrevet skal være bed
 
 [Ekstra][4] Inneholder noen ekstra eksempler på komponenter om er dokumentert
 
-[style-guide-w-examples]: ./img/style-guide-w-examples.png
 
 [1]: https://github.com/DagF/it2810-tutorial/blob/1-identify/README.md
 [2]: https://github.com/DagF/it2810-tutorial/blob/2-extract/README.md
@@ -136,4 +134,5 @@ Er ikke helt sikker på hvorfor fremgangsmåten jeg har beskrevet skal være bed
 [4]: https://github.com/DagF/it2810-tutorial/blob/4-examples/README.md
 
 [image-box-component]: ./img/image-box-component.png
+[style-guide-w-examples]: ./img/style-guide-w-examples.png
 
