@@ -107,6 +107,20 @@ Dette gir:
 ![ImageBox styleguide with exampels][style-guide-w-examples]
 
 
+[Del 1][1] tar for seg hvordan identifisere felles komponenter
+
+[Del 2][2] tar for seg hvordan isolere felles komponenter
+
+[Del 3][3] tar for seg hvordan dokumentere felles komponenter
+
+[Ekstra][4] Inneholder noen ekstra eksempler på komponenter om er dokumentert
+
+[style-guide-w-examples]: ./img/style-guide-w-examples.png
+
+[1]: https://github.com/DagF/it2810-tutorial/blob/1-identify/README.md
+[2]: https://github.com/DagF/it2810-tutorial/blob/2-extract/README.md
+[3]: https://github.com/DagF/it2810-tutorial/blob/3-document/README.md
+[4]: https://github.com/DagF/it2810-tutorial/blob/4-examples/README.md
 
 [style-guide-w-description]: ./img/style-guide-w-description.png
 [style-guide-w-proptypes]: ./img/style-guide-w-proptypes.png
