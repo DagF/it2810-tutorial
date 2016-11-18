@@ -14,6 +14,7 @@ http://localhost:3000
 ```
 
 Her er noen screenshots av hvordan stilguiden ser ut:
+
 ![ImageBox components][extra-style-guide-1]
 
 ![ImageBox components][extra-style-guide-2]
