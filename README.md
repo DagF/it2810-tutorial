@@ -5,8 +5,7 @@
 Vi har nå isolert komponenten vår. Dette i seg selv gir ikke mye ekstra verdi. For å gi komponenten vår mer verdi
 trenger vi å legge til en beskrivelse, prop types og eksempler.
 
-Vi bruker i denne tutorialen npm modulen ```react-styleguidist```. Den genererer en stilguide fra vår beskrivelse,
-proptypes og eksempler.
+For å generere en stilguide benytter vi oss av npm modulen```react-styleguidist```. Denne bruker beskrivelsen, proptypes og eksempler til å lage en interaktiv stilguide hvor man kan lese om og teste de ulike komponentene. 
 
 ### Hvordan legge til beskrivelse
 Det å legge til en beskrivelse gjøres på samme måte en er vant med i for eksempel JavaDoc.
@@ -40,7 +39,6 @@ Dette genererer:<br />
 
 
 ### Hvordan legge til proptypes
-Videre legger vi til proptypes:
 
 ```
 ImageBox.propTypes = {
@@ -69,9 +67,7 @@ Dette gir:<br />
 
 ### Hvordan legge til eksempler
 
-Det som gjenstår nå er å legge til noen eksempler:
-
-For å gjør dette oppdaterer vi beskrivelsen av komponenten med en @example:
+For å legge til eksempler oppdaterer vi beskrivelsen av komponenten med en @example:
 
 ```
 /**
@@ -98,8 +94,8 @@ ImageBox component
 '''
 <ImageBox
     url={"https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg"}
-    text={"Burrito cat"}
-    alt={"What does a cat burrito taste like?"}
+    text={"What does a cat burrito taste like?"}
+    alt={"Burrito cat"}
 />
 '''
 ```
