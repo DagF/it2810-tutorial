@@ -125,6 +125,3 @@ Dette gir:
 [style-guide-w-description]: ./img/style-guide-w-description.png
 [style-guide-w-proptypes]: ./img/style-guide-w-proptypes.png
 [style-guide-w-examples]: ./img/style-guide-w-examples.png
-
-
-[1]: http://thesassway.com/intermediate/avoid-nested-selectors-for-more-modular-css
