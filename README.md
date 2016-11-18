@@ -2,7 +2,7 @@
 
 
 ## Hvordan isolere felles komponenter
-Vi har til nå identifisert en bilde voks vi ønsker å dra ut som en felles komponent.
+Vi har til nå identifisert en bildeboks vi ønsker å dra ut som en felles komponent.
 I denne delen ser vi på hvordan dette kan gjøres.
 
 ### Hvordan strukturere felles komponenter
@@ -83,12 +83,12 @@ Dette gir:
 
 
 ### Hvordan tilpasse en komponent til felles bruk
-Vi har nå isolert komponenten. Vi må videre se på hvordan tilpass komponenten for felles bruk. Komponenten har nå flere
-paramtere som kan gi utallige kombinasjoner av den samme komponenten. Noe av poenget med en stilguide er å begrense
+Vi har nå isolert komponenten. Vi må videre se på hvordan tilpasse komponenten for felles bruk. Komponenten har nå flere
+parametere som kan gi utallige kombinasjoner av den samme komponenten. Noe av poenget med en stilguide er å begrense
 muligheter. Vi bør derfor se på hvordan begrense mulige variasjoner av bildekomponenten vår og heller definere bestemte
 design på forksjellige bruksområder for bildeboksen.
 
-Vi identifiserer i dette eksempelet 3 bruksområder for vår komponent: ```block```, ```inline``` og ```link```.
+Vi bestemmer oss derfor for å fjerne muligheten til å forandre farge og størrelse og identifiserer i dette eksempelet 3 bruksområder for vår komponent: ```block```, ```inline``` og ```link```.
 Vi ønsker også at den mest brukte type som er ```inline``` skal være default.
 Vi oppdaterer komponenten vår til å ta hensyn til dette:
 
@@ -112,7 +112,7 @@ alle bildebokser. ```image-box-inline``` utvider denne definisjonen med hvordan 
 plasseres inline.
 
 
-I del 3 ser vi på hvordan dokumentere komponenten vi har isolert.
+I del 3 ser vi på hvordan vi kan dokumentere komponenten vi har isolert.
 
 
 
