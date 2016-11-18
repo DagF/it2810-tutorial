@@ -25,7 +25,7 @@ Her er noen screenshots av hvordan stilguiden ser ut:
 ![ImageBox components][extra-style-guide-4]
 
 
-For de som er interessert i flere eksempler på stilguider:
+For de som er interessert i noen bedre og mer omfattende eksempler på stilguider:
 
 * [Semantic UI Components for React](http://hallister.github.io/semantic-react/)
 
