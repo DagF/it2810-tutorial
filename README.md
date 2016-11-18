@@ -28,7 +28,7 @@ For de som er interessert i noen bedre og mer omfattende eksempler på stilguide
 [1]: https://github.com/DagF/it2810-tutorial/blob/1-identify/README.md
 [2]: https://github.com/DagF/it2810-tutorial/blob/2-extract/README.md
 [3]: https://github.com/DagF/it2810-tutorial/blob/3-document/README.md
-[4]: https://github.com/DagF/it2810-tutorial/tree/4-examples/REAMDE.md
+[4]: https://github.com/DagF/it2810-tutorial/blob/4-examples/REAMDE.md
 
 
 
