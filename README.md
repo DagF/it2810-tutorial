@@ -7,7 +7,7 @@ stilguide. Guiden er delt inn i 3 deler, for å bla mellom delene bytt branch ti
 
 Stilguiden vi skal lage blir seende ut som følger:
 
-![ImageBox components][style-guide-w-exampels]
+![ImageBox components][style-guide-w-examples]
 
 [Del 1][1] tar for seg hvordan identifisere felles komponenter
 
@@ -17,7 +17,7 @@ Stilguiden vi skal lage blir seende ut som følger:
 
 [Ekstra][4] Inneholder noen ekstra eksempler på komponenter om er dokumentert
 
-[style-guide-w-exampels]: ./img/style-guide-w-exampels.png
+[style-guide-w-examples]: ./img/style-guide-w-examples.png
 
 [1]: https://github.com/DagF/it2810-tutorial/blob/1-identify/README.md
 [2]: https://github.com/DagF/it2810-tutorial/blob/2-extract/README.md
