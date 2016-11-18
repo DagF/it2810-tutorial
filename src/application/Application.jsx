@@ -1,4 +1,4 @@
-import React, {PropTypes} from 'react'
+import React from 'react'
 import Header from './Header'
 import Content from './Content'
 import Footer from './Footer'
