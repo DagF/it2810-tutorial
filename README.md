@@ -9,6 +9,12 @@ Stilguiden vi skal lage blir seende ut som følger:
 
 ![ImageBox components][style-guide-w-examples]
 
+
+For de som er interessert i noen bedre og mer omfattende eksempler på stilguider:
+
+* [Semantic UI Components for React](http://hallister.github.io/semantic-react/)
+* [Bulma Components](http://bokuweb.github.io/re-bulma/)
+
 [Del 1][1] tar for seg hvordan identifisere felles komponenter
 
 [Del 2][2] tar for seg hvordan isolere felles komponenter
@@ -22,7 +28,7 @@ Stilguiden vi skal lage blir seende ut som følger:
 [1]: https://github.com/DagF/it2810-tutorial/blob/1-identify/README.md
 [2]: https://github.com/DagF/it2810-tutorial/blob/2-extract/README.md
 [3]: https://github.com/DagF/it2810-tutorial/blob/3-document/README.md
-[4]: https://github.com/DagF/it2810-tutorial/tree/form_component
+[4]: https://github.com/DagF/it2810-tutorial/tree/4-examples/REAMDE.md
 
 
 
