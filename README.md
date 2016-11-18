@@ -23,7 +23,7 @@ Her er noen screenshots av hvordan stilguiden ser ut:
 
 ![ImageBox components][extra-style-guide-4]
 
-![ImageBox components][extra-style-guide-4]
+![ImageBox components][extra-style-guide-5]
 
 
 For de som er interessert i noen bedre og mer omfattende eksempler på stilguider:
