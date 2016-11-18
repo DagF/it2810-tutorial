@@ -22,6 +22,8 @@ Her er noen screenshots av hvordan stilguiden ser ut:
 
 ![ImageBox components][extra-style-guide-4]
 
+![ImageBox components][extra-style-guide-4]
+
 
 For de som er interessert i flere eksempler på stilguider:
 
@@ -34,6 +36,7 @@ For de som er interessert i flere eksempler på stilguider:
 [extra-style-guide-2]: ./img/extra-style-guide-2.png
 [extra-style-guide-3]: ./img/extra-style-guide-3.png
 [extra-style-guide-4]: ./img/extra-style-guide-4.png
+[extra-style-guide-5]: ./img/extra-style-guide-5.png
 
 
 
