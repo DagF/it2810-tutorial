@@ -104,13 +104,13 @@ NB! ' er brukt i stedenfor ` i dette eksempelet for å få markdown på denne si
 
 Dette gir:
 
-![ImageBox styleguide with exampels][style-guide-w-exampels]
+![ImageBox styleguide with exampels][style-guide-w-examples]
 
 
 
 [style-guide-w-description]: ./img/style-guide-w-description.png
 [style-guide-w-proptypes]: ./img/style-guide-w-proptypes.png
-[style-guide-w-exampels]: ./img/style-guide-w-exampels.png
+[style-guide-w-examples]: ./img/style-guide-w-examples.png
 
 
 [1]: http://thesassway.com/intermediate/avoid-nested-selectors-for-more-modular-css
