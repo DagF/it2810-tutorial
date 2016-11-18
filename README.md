@@ -1,7 +1,7 @@
 # Stilguide (Del 1 av 3)
 
 Vi har på denne branchen satt opp et enkelt React prosjekt. For å innstallere kjør ```npm install```. For å kjøre
-prosjektet kjør ```ǹpm start```.
+prosjektet kjør ```npm start```.
 
 ## Hvordan identifisere felles komponenter
 ### Introduksjon
