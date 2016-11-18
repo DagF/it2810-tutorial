@@ -29,7 +29,7 @@ franken-komponenter som er vanskelig å bruke, brekker lett og gjør fremtidige 
 En stilguide hjelper til med flere av disse utfordringene da det oppfordrer til å dokumentere komponenten og vise
 eksempelbruk. En får også et eget sted hvor en kan se oversikt over komponenter som finnes og gir utviklere, designere,
 teamledere og kunder at vokabular for å snakke om utformingen av applikasjonen. Det er mye lettere for en kunde å
-utforkse tilgjengelige komponenter i som en visuell reppresentasjon enn å måtte sette seg inn i kode eller å prøve å
+utforske tilgjengelige komponenter som en visuell reppresentasjon enn å måtte sette seg inn i kode eller å prøve å
 identifisere en komponent i en nettleser. En stilguide blir en egen liten wiki for komponentene som er tilgjengelig i
 applikasjonen.
 
@@ -39,10 +39,10 @@ Vi sa tidligere at det kan være vanskelig å identifisere hva som er en kompone
 og komponenter som ikke bør være det. Innen utvikling lærer en ofte at all kode skal skrives på en slik måte at det er
 lett å gjenbruke den. Dette er ofte en god kjøreregel, men det kommer med en kostnad. Det tar tid og arbeid å gjøre en
 komponent om til noe som kan fungere som en felles komponent. I artikkelen [The economics of reuse][1] diskuterer
-Johannes Brodwall når det lønner seg å tilpasse en komponent for gjennbruk. Alternativet til å tilpasse en komponent for
+Johannes Brodwall når det lønner seg å tilpasse en komponent for gjenbruk. Alternativet til å tilpasse en komponent for
 gjenbruk er å duplisere koden og modifisere den til bruk et annet sted i koden. I denne artikkelen argumenterer Johannes
 for at ved fjerde gang en komponent skal brukes lønner det seg å refakturere koden og tilpasse modulen for gjenbruk.
-Vi tar derfor denne regelen som utgangspunkt, men legger til at i utvikling i React vill det oppstå situasjoner hvor
+Vi tar derfor denne regelen som utgangspunkt, men legger til at i utvikling i React vil det oppstå situasjoner hvor
 kode en skriver blir så komplisert at det er upraktisk å ikke dra kode ut i egne komponenter. Spørsmålet i slike
 situasjoner blir da er dette en komponent en ser for seg vil bli brukt mye, i såfall kan det lønne seg å dra den ut som
 en felles komponent med en gang. Hvis ikke holder det å dra koden ut i en egen komponent kun til bruk i komponenten en
