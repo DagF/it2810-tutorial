@@ -5,7 +5,7 @@
 Vi har nå isolert komponenten vår. Dette i seg selv gir ikke mye ekstra verdi. For å gi komponenten vår mer verdi
 trenger vi å legge til en beskrivelse, prop types og eksempler.
 
-For å generere en stilguide benytter vi oss av npm modulen```react-styleguidist```. Denne bruker beskrivelsen, proptypes og eksempler til å lage en interaktiv stilguide hvor man kan lese om og teste de ulike komponentene. 
+For å generere en stilguide benytter vi oss av npm modulen```react-styleguidist``` eller [React Styleguidist][5]. Denne bruker beskrivelsen, proptypes og eksempler til å lage en interaktiv stilguide hvor man kan lese om og teste de ulike komponentene.
 
 ### Hvordan legge til beskrivelse
 Det å legge til en beskrivelse gjøres på samme måte en er vant med i for eksempel JavaDoc.
@@ -121,6 +121,8 @@ Dette gir:
 [2]: https://github.com/DagF/it2810-tutorial/blob/2-extract/README.md
 [3]: https://github.com/DagF/it2810-tutorial/blob/3-document/README.md
 [4]: https://github.com/DagF/it2810-tutorial/blob/4-examples/README.md
+
+[5]: https://github.com/styleguidist/react-styleguidist
 
 [style-guide-w-description]: ./img/style-guide-w-description.png
 [style-guide-w-proptypes]: ./img/style-guide-w-proptypes.png
