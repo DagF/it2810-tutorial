@@ -117,10 +117,6 @@ plasseres inline.
 I [del 3][3] ser vi på hvordan vi kan dokumentere komponenten vi har isolert.
 
 
-Skal se om det er mulig å dra inn noen poenger fra denne:
-Er ikke helt sikker på hvorfor fremgangsmåten jeg har beskrevet skal være bedre, men er noe jeg ble fortalt i sommerjobben.
-
-
 [Del 1][1] tar for seg hvordan identifisere felles komponenter
 
 [Del 2][2] tar for seg hvordan isolere felles komponenter
