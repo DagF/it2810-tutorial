@@ -120,7 +120,20 @@ Skal se om det er mulig å dra inn noen poenger fra denne:
 Er ikke helt sikker på hvorfor fremgangsmåten jeg har beskrevet skal være bedre, men er noe jeg ble fortalt i sommerjobben.
 
 
+[Del 1][1] tar for seg hvordan identifisere felles komponenter
+
+[Del 2][2] tar for seg hvordan isolere felles komponenter
+
+[Del 3][3] tar for seg hvordan dokumentere felles komponenter
+
+[Ekstra][4] Inneholder noen ekstra eksempler på komponenter om er dokumentert
+
+[style-guide-w-examples]: ./img/style-guide-w-examples.png
+
+[1]: https://github.com/DagF/it2810-tutorial/blob/1-identify/README.md
+[2]: https://github.com/DagF/it2810-tutorial/blob/2-extract/README.md
+[3]: https://github.com/DagF/it2810-tutorial/blob/3-document/README.md
+[4]: https://github.com/DagF/it2810-tutorial/blob/4-examples/README.md
 
 [image-box-component]: ./img/image-box-component.png
 
-[1]: http://thesassway.com/intermediate/avoid-nested-selectors-for-more-modular-css
