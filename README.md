@@ -10,8 +10,11 @@ Stilguiden vi skal lage blir seende ut som følger:
 ![ImageBox components][style-guide-w-exampels]
 
 [Del 1][1] tar for seg hvordan identifisere felles komponenter
+
 [Del 2][2] tar for seg hvordan isolere felles komponenter
+
 [Del 3][3] tar for seg hvordan dokumentere felles komponenter
+
 [Ekstra][4] Inneholder noen ekstra eksempler på komponenter om er dokumentert
 
 [style-guide-w-exampels]: ./img/style-guide-w-exampels.png
