@@ -61,7 +61,8 @@ ImageBox.propTypes = {
 };
 ```
 
-Dette gir:<br />
+Dette gir:
+
 ![ImageBox styleguide width proptypes][style-guide-w-proptypes]
 
 
