@@ -2,7 +2,7 @@
 Hvordan identifisere, isolere og dokumentere felles komponenter i en applikasjon på en måte som gjør komponenten til en
 levende stilguide.
 
-I denne guiden kal vi vise hvordan du kan identifisere, isolere og dokumentere felles komponenter for å lage en
+I denne guiden skal vi vise hvordan du kan identifisere, isolere og dokumentere felles komponenter for å lage en
 stilguide. Guiden er delt inn i 3 deler, for å bla mellom delene bytt branch til branchen som starter på 1, 2 eller 3.
 
 Stilguiden vi skal lage blir seende ut som følger:
