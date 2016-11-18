@@ -29,7 +29,6 @@ Her er noen screenshots av hvordan stilguiden ser ut:
 For de som er interessert i noen bedre og mer omfattende eksempler på stilguider:
 
 * [Semantic UI Components for React](http://hallister.github.io/semantic-react/)
-
 * [Bulma Components](http://bokuweb.github.io/re-bulma/)
 
 
